@@ -1,9 +1,10 @@
 import logo from './logo.svg';
+import CalculatorForm from './Pages/CalculatorForm/CalculatorForm';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>welcom to link sttaf</h1>
+        <CalculatorForm></CalculatorForm>
       </header>
     </div>
   );
