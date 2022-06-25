@@ -10,12 +10,14 @@ const CalculatorForm = () => {
     }
 
     const emojis = Object.keys(options);
+
+    // set different state value
     const [number1, setNumber1] = useState(0);
     const [number2, setNumber2] = useState(0);
     const [result, setResult] = useState(0);
     const [operation, setOperation] = useState("+");
 
-
+    // handle calculator handler
     const handleCalculate = () => {
         let val;
 
